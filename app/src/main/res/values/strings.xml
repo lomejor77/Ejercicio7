@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ejercicio7</string>
+    <string name="tema_dos">Tema Dos</string>
+    <string name="tema_uno">Tema Uno</string>
 </resources>

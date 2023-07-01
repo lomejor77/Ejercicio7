@@ -7,29 +7,28 @@
     android:background="@drawable/fondohd"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnTema2"
+        style="@style/buttonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tema Dos"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="152dp" />
+        android:layout_marginBottom="432dp"
+        android:text="@string/tema_dos"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btnTema1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tema Uno"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="152dp" />
+        style="@style/buttonStyle"
+        android:text="@string/tema_uno"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
